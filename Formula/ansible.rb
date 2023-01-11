@@ -16,7 +16,7 @@ class AnsibleAT28 < Formula
   end
 
 
-
+  keg_only :versioned_formula
 
   depends_on "pkg-config" => :build
   depends_on "rust" => :build
